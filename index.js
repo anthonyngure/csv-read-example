@@ -17,5 +17,5 @@ fs.createReadStream('data.csv', {})
         const tat = now - start
         console.log(`Sum of IDs ${totalOfIds}`)
         console.log(`Items count  ${items.length}`)
-        console.log(`${tat} millis`)
+        console.log(`${tat/1000} seconds`)
     })
